@@ -700,15 +700,15 @@ end
 
 function X.IsRepeatHero( sHero )
 
-	for id = 0, 20
-	do
-		if ( IsTeamPlayer( id ) and GetSelectedHeroName( id ) == sHero )
-			or ( IsCMBannedHero( sHero ) )
-			or ( X.IsBanByChat( sHero ) )
-		then
-			return true
-		end
-	end
+	-- for id = 0, 20
+	-- do
+	-- 	if ( IsTeamPlayer( id ) and GetSelectedHeroName( id ) == sHero )
+	-- 		or ( IsCMBannedHero( sHero ) )
+	-- 		or ( X.IsBanByChat( sHero ) )
+	-- 	then
+	-- 		return true
+	-- 	end
+	-- end
 
 	return false
 
