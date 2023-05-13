@@ -1315,11 +1315,11 @@ function Item.GetOutfitType( bot )
 
 	
 	local sOutfitTypeList = {
-		[1] = 'outfit_mid',
-		[2] = 'outfit_tank',
+		[1] = 'outfit_carry',
+		[2] = 'outfit_carry',
 		[3] = 'outfit_carry',
-		[4] = 'outfit_mage',
-		[5] = 'outfit_priest',
+		[4] = 'outfit_carry',
+		[5] = 'outfit_carry',
 	}
 
 	local nTeamPlayerIDs = GetTeamPlayers( GetTeam() )
