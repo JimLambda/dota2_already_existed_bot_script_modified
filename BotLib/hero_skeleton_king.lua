@@ -41,15 +41,16 @@ tOutFitList['outfit_carry'] = {
 	"item_hand_of_midas",
 	"item_boots",
 	"item_aghanims_shard",
-	"item_blink",
-	"item_armlet",
-	"item_blade_mail",
-	"item_black_king_bar",
-	"item_travel_boots",
-	"item_overwhelming_blink",	
+	"item_crimson_guard",
+	"item_ultimate_scepter",
+	"item_assault",
 	"item_abyssal_blade",
-	"item_moon_shard",
+	"item_ultimate_scepter_2",
+	"item_mjollnir",
+	"item_travel_boots",
+	"item_lotus_orb",
 	"item_travel_boots_2",
+	"item_moon_shard",
 
 }
 
@@ -96,6 +97,9 @@ X['sSellList'] = {
 	
 	"item_assault",
 	"item_ancient_janggo",
+
+	"item_mjollnir",
+	"item_hand_of_midas",
 
 }
 
