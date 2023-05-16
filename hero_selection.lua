@@ -199,7 +199,7 @@ local sHasDevelopmentHeroList = {
 	-- "npc_dota_hero_bloodseeker",
 	-- "npc_dota_hero_phantom_assassin",
 	-- "npc_dota_hero_phantom_lancer",
-	-- "npc_dota_hero_naga_siren",
+	"npc_dota_hero_naga_siren",
 	-- "npc_dota_hero_huskar",
 	-- "npc_dota_hero_riki",
 	-- "npc_dota_hero_tidehunter",
@@ -207,7 +207,7 @@ local sHasDevelopmentHeroList = {
 	-- "npc_dota_hero_slark",
 	-- "npc_dota_hero_juggernaut",
 	-- "npc_dota_hero_chaos_knight",
-	-- "npc_dota_hero_bristleback",
+	"npc_dota_hero_bristleback",
 	-- "npc_dota_hero_dragon_knight",
 	-- "npc_dota_hero_kunkka",
 	"npc_dota_hero_skeleton_king", 
@@ -217,7 +217,7 @@ local sHasDevelopmentHeroList = {
 	-- "npc_dota_hero_slardar",
 	-- "npc_dota_hero_legion_commander",
 	-- "npc_dota_hero_omniknight",
-	-- "npc_dota_hero_sniper",
+	"npc_dota_hero_sniper",
 	-- "npc_dota_hero_viper",
 	-- "npc_dota_hero_nevermore",
 	-- "npc_dota_hero_medusa", 
@@ -701,14 +701,15 @@ end
 function X.IsRepeatHero( sHero )
 
 	-- for id = 0, 20
-	-- do
-	-- 	if ( IsTeamPlayer( id ) and GetSelectedHeroName( id ) == sHero )
-	-- 		or ( IsCMBannedHero( sHero ) )
-	-- 		or ( X.IsBanByChat( sHero ) )
-	-- 	then
-	-- 		return true
-	-- 	end
-	-- end
+	for id = 0, 4
+	do
+		if ( IsTeamPlayer( id ) and GetSelectedHeroName( id ) == sHero )
+			or ( IsCMBannedHero( sHero ) )
+			or ( X.IsBanByChat( sHero ) )
+		then
+			return true
+		end
+	end
 
 	return false
 

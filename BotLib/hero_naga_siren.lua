@@ -35,7 +35,8 @@ local tOutFitList = {}
 
 tOutFitList['outfit_carry'] = {
 
-	"item_melee_carry_outfit",
+	-- "item_melee_carry_outfit",
+	"item_boots",
 	"item_yasha",
 	"item_diffusal_blade",
 	"item_manta",
@@ -43,12 +44,12 @@ tOutFitList['outfit_carry'] = {
 	"item_travel_boots",
 	"item_aghanims_shard",
 	"item_abyssal_blade",
---	"item_ultimate_scepter",
+	"item_ultimate_scepter",
+	"item_ultimate_scepter_2",
 	"item_butterfly",
-	"item_moon_shard",
 	"item_travel_boots_2",
+	"item_moon_shard",
 --	"item_ogre_axe",
---	"item_ultimate_scepter_2",
 	
 }
 

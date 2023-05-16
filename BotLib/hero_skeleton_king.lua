@@ -64,11 +64,11 @@ tOutFitList['outfit_tank'] = {
 
 	-- "item_tank_outfit",
 	"item_boots",
+	"item_aghanims_shard",
 	"item_crimson_guard",
 	-- "item_armlet",
 	"item_heavens_halberd",
 	"item_assault",
-	"item_aghanims_shard",
 	"item_travel_boots",
 	"item_ultimate_scepter",
 	"item_satanic",

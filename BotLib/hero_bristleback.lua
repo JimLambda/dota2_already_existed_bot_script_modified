@@ -63,17 +63,20 @@ tOutFitList['outfit_mage'] = tOutFitList['outfit_carry']
 
 tOutFitList['outfit_tank'] = {
 
-	"item_tank_outfit",
+	-- "item_tank_outfit",
+	"item_boots",
 	"item_aghanims_shard",
 	"item_crimson_guard",
-	"item_heavens_halberd",
+	"item_ultimate_scepter",
+	-- "item_heavens_halberd",
 	"item_lotus_orb",
+	"item_black_king_bar",
+	"item_travel_boots",
 	"item_assault",
-	"item_travel_boots", 
-	"item_heart",
-	"item_moon_shard",
-	"item_travel_boots_2",
 	"item_ultimate_scepter_2",
+	"item_heart",
+	"item_travel_boots_2",
+	"item_moon_shard",
 
 
 }

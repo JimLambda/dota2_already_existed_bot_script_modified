@@ -43,9 +43,11 @@ local tOutFitList = {}
 
 tOutFitList['outfit_carry'] = {
 
-	"item_ranged_carry_outfit",
+	-- "item_ranged_carry_outfit",
+	"item_boots",
 	"item_dragon_lance",
-	"item_mask_of_madness",
+	-- "item_mask_of_madness",
+	"item_lifesteal",
 	"item_aghanims_shard",
 	"item_maelstrom",
 	"item_hurricane_pike",
@@ -54,10 +56,10 @@ tOutFitList['outfit_carry'] = {
 	"item_skadi",
 	"item_mjollnir",
 	"item_broken_satanic",
-	"item_moon_shard",
-	"item_travel_boots_2",
 	"item_ultimate_scepter_2",
 	"item_butterfly",
+	"item_travel_boots_2",
+	"item_moon_shard",
 
 
 }
@@ -91,27 +93,27 @@ tOutFitList['outfit_tank'] = tOutFitList['outfit_carry']
 
 X['sBuyList'] = tOutFitList[sOutfitType]
 
-if RandomInt( 1, 99 ) >= 88
-then
-	X['sBuyList'] = {
-					"item_ranged_carry_outfit",
-					"item_dragon_lance",
-					"item_hand_of_midas",
-					"item_aghanims_shard",
-					"item_maelstrom",
-					"item_hurricane_pike",
-					"item_ultimate_scepter",
-					"item_mjollnir",
-					"item_skadi",
-					"item_travel_boots",
-					"item_greater_crit",
-					"item_moon_shard",
-					"item_travel_boots_2",
-					"item_ultimate_scepter_2",
-					"item_monkey_king_bar",
+-- if RandomInt( 1, 99 ) >= 88
+-- then
+-- 	X['sBuyList'] = {
+-- 					"item_ranged_carry_outfit",
+-- 					"item_dragon_lance",
+-- 					"item_hand_of_midas",
+-- 					"item_aghanims_shard",
+-- 					"item_maelstrom",
+-- 					"item_hurricane_pike",
+-- 					"item_ultimate_scepter",
+-- 					"item_mjollnir",
+-- 					"item_skadi",
+-- 					"item_travel_boots",
+-- 					"item_greater_crit",
+-- 					"item_moon_shard",
+-- 					"item_travel_boots_2",
+-- 					"item_ultimate_scepter_2",
+-- 					"item_monkey_king_bar",
 
-	}
-end
+-- 	}
+-- end
 
 
 X['sSellList'] = {
