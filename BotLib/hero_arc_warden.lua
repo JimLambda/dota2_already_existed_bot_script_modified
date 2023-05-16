@@ -35,9 +35,10 @@ local tOutFitList = {}
 
 tOutFitList['outfit_carry'] = {
 
-	"item_ranged_carry_outfit",
+	-- "item_ranged_carry_outfit",
+	"item_boots",
 	"item_diffusal_blade",
-	"item_hand_of_midas",
+	-- "item_hand_of_midas",
 	"item_aghanims_shard",
 	"item_black_king_bar",
 	"item_manta",

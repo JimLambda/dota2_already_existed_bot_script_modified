@@ -194,7 +194,7 @@ local sHasDevelopmentHeroList = {
 	-- "npc_dota_hero_sven",
 	-- "npc_dota_hero_luna",
 	-- "npc_dota_hero_antimage",
-	-- "npc_dota_hero_arc_warden",
+	"npc_dota_hero_arc_warden",
 	-- "npc_dota_hero_drow_ranger",
 	-- "npc_dota_hero_bloodseeker",
 	-- "npc_dota_hero_phantom_assassin",
