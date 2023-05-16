@@ -220,7 +220,7 @@ local sHasDevelopmentHeroList = {
 	"npc_dota_hero_sniper",
 	-- "npc_dota_hero_viper",
 	-- "npc_dota_hero_nevermore",
-	-- "npc_dota_hero_medusa", 
+	"npc_dota_hero_medusa", 
 	-- "npc_dota_hero_templar_assassin",
 	-- "npc_dota_hero_razor",
 	-- "npc_dota_hero_mirana",

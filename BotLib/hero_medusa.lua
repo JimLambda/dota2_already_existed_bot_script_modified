@@ -36,18 +36,21 @@ local tOutFitList = {}
 
 tOutFitList['outfit_carry'] = {
 
-	"item_medusa_outfit",
-	"item_ultimate_scepter",
+	-- "item_medusa_outfit",
+	"item_boots",
+	-- "item_kaya",
+	-- "item_yasha_and_kaya",
+	"item_hurricane_pike",
 	"item_aghanims_shard",
-	"item_kaya",
-	"item_yasha_and_kaya",
---	"item_dragon_lance",
 	"item_mjollnir",
+	"item_ultimate_scepter",
 	"item_travel_boots",
-	"item_sphere",	
+	-- "item_sphere",	
 	"item_skadi",
+	'item_greater_crit',
 	"item_ultimate_scepter_2",
-	"item_sheepstick",
+	'item_monkey_king_bar',
+	-- "item_sheepstick",
 	"item_moon_shard",
 	"item_travel_boots_2",
 	
