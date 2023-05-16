@@ -57,8 +57,8 @@ tOutFitList['outfit_carry'] = {
 	"item_mjollnir",
 	"item_broken_satanic",
 	"item_ultimate_scepter_2",
-	"item_butterfly",
 	"item_moon_shard",
+	"item_butterfly",
 	"item_travel_boots_2",
 
 
