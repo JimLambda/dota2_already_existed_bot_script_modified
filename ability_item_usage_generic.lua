@@ -5678,11 +5678,11 @@ local function UseGlyph()
 
 	if GetGlyphCooldown( ) > 0
 		or DotaTime() < 60
-		or bot ~= GetTeamMember( 1 )
-		or not GetTeamMember( 2 ):IsBot()
-		or not GetTeamMember( 3 ):IsBot()
-		or not GetTeamMember( 4 ):IsBot()
-		or not GetTeamMember( 5 ):IsBot()
+		-- or bot ~= GetTeamMember( 1 )
+		-- or not GetTeamMember( 2 ):IsBot()
+		-- or not GetTeamMember( 3 ):IsBot()
+		-- or not GetTeamMember( 4 ):IsBot()
+		-- or not GetTeamMember( 5 ):IsBot()
 	then
 		return
 	end
