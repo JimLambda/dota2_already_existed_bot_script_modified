@@ -550,9 +550,9 @@ end
 if GetTeam() == TEAM_RADIANT
 then
 	local nRadiantLane = {
-							[1] = LANE_MID,
+							[1] = LANE_BOT,
 							[2] = LANE_TOP,
-							[3] = LANE_BOT,
+							[3] = LANE_MID,
 							[4] = LANE_BOT,
 							[5] = LANE_TOP,
 						}
