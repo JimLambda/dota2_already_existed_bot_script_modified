@@ -52,19 +52,23 @@ tOutFitList['outfit_carry'] = {
 
 tOutFitList['outfit_priest'] = {
 
-	"item_priest_outfit",
+	-- "item_priest_outfit",
+	"item_boots",
+	"item_aether_lens",
 	"item_urn_of_shadows",
-	"item_mekansm",
+	-- "item_mekansm",
 	"item_glimmer_cape",
 	"item_aghanims_shard",
-	"item_guardian_greaves",
+	-- "item_guardian_greaves",
 	"item_spirit_vessel",
---	"item_wraith_pact",
 	"item_ultimate_scepter",
+	"item_travel_boots",
+	--	"item_wraith_pact",
 	"item_shivas_guard",
-	"item_refresher",
-	"item_moon_shard",
 	"item_ultimate_scepter_2",
+	"item_refresher",
+	"item_travel_boots_2",
+	"item_moon_shard",
 
 }
 
@@ -87,7 +91,7 @@ tOutFitList['outfit_mage'] = {
 
 tOutFitList['outfit_mid'] = tOutFitList['outfit_carry']
 
-tOutFitList['outfit_tank'] = tOutFitList['outfit_carry']
+tOutFitList['outfit_tank'] = tOutFitList['outfit_priest']
 
 X['sBuyList'] = tOutFitList[sOutfitType]
 

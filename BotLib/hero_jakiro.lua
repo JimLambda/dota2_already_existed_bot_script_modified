@@ -35,19 +35,22 @@ local tOutFitList = {}
 
 tOutFitList['outfit_carry'] = {
 
-	"item_crystal_maiden_outfit",
---	"item_glimmer_cape",
+	-- "item_crystal_maiden_outfit",
+	"item_boots",
+	"item_aether_lens",
+	"item_glimmer_cape",
 	"item_aghanims_shard",
 	"item_force_staff",
 	"item_ultimate_scepter",
 	"item_hurricane_pike",
-	"item_cyclone", 
+	"item_cyclone",
+	-- "item_spirit_vessel",
+	"item_ultimate_scepter_2",
 	"item_sheepstick",
 	"item_wind_waker",
 	"item_refresher",
-	"item_lotus_orb",
+	-- "item_lotus_orb",
 	"item_moon_shard",
-	"item_ultimate_scepter_2",
 
 }
 
@@ -99,6 +102,9 @@ X['sSellList'] = {
 
 	"item_ultimate_scepter",
 	"item_magic_wand",
+
+	"item_wind_waker",
+	"item_aether_lens",
 	
 }
 

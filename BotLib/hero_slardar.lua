@@ -36,8 +36,9 @@ local tOutFitList = {}
 
 tOutFitList['outfit_carry'] = {
 
-	"item_bristleback_outfit",
-	"item_bracer",
+	-- "item_bristleback_outfit",
+	"item_boots",
+	-- "item_bracer",
 	"item_echo_sabre",
 	"item_ultimate_scepter",
 	"item_blink",
@@ -46,8 +47,9 @@ tOutFitList['outfit_carry'] = {
 	"item_travel_boots",
 	"item_aghanims_shard",
 	"item_bloodthorn",
-	"item_ultimate_scepter_2",
 	"item_overwhelming_blink",
+	"item_ultimate_scepter_2",
+	"item_assault",
 	"item_moon_shard",
 	"item_travel_boots_2",
 
@@ -59,23 +61,25 @@ tOutFitList['outfit_priest'] = tOutFitList['outfit_carry']
 
 tOutFitList['outfit_mage'] = tOutFitList['outfit_carry']
 
-tOutFitList['outfit_tank'] = {
+tOutFitList['outfit_tank'] = tOutFitList['outfit_carry']
+
+-- tOutFitList['outfit_tank'] = {
 	
-	"item_tank_outfit",
-	"item_echo_sabre",
-	"item_crimson_guard",
-	"item_ultimate_scepter",
-	"item_heavens_halberd",
-	"item_assault",
-	"item_travel_boots",
-	"item_aghanims_shard",
-	"item_satanic",
-	"item_ultimate_scepter_2",
-	"item_heart",
-	"item_moon_shard",
-	"item_travel_boots_2",
+-- 	"item_tank_outfit",
+-- 	"item_echo_sabre",
+-- 	"item_crimson_guard",
+-- 	"item_ultimate_scepter",
+-- 	"item_heavens_halberd",
+-- 	"item_assault",
+-- 	"item_travel_boots",
+-- 	"item_aghanims_shard",
+-- 	"item_satanic",
+-- 	"item_ultimate_scepter_2",
+-- 	"item_heart",
+-- 	"item_moon_shard",
+-- 	"item_travel_boots_2",
 	
-}
+-- }
 
 X['sBuyList'] = tOutFitList[sOutfitType]
 
