@@ -54,7 +54,6 @@ tOutFitList['outfit_priest'] = {
 
 	-- "item_priest_outfit",
 	"item_boots",
-	"item_aether_lens",
 	"item_urn_of_shadows",
 	-- "item_mekansm",
 	"item_glimmer_cape",
@@ -63,6 +62,7 @@ tOutFitList['outfit_priest'] = {
 	"item_spirit_vessel",
 	"item_ultimate_scepter",
 	"item_travel_boots",
+	"item_aether_lens",
 	--	"item_wraith_pact",
 	"item_shivas_guard",
 	"item_ultimate_scepter_2",
